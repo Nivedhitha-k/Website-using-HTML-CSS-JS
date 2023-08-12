@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>add a patient</title>
+        <script src="page4val.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="body4">
+        <h1 align="center" class="h14">Enter patient details</h1>
+        <form name="form3"  method="post" action="page5.html"  onsubmit="return validate()">
+            <div align="center" class="div14">
+                    <label >First name : </label>
+                    <input type="text" id="pfname" required="required"><br><br>
+                    <label >Last name : </label>
+                    <input type="text" id="plname" required="required" ><br><br>
+                    <label >Date Of Birth : </label>
+                    <input type="date" id="pdate" required="required" ><br><br>
+                    <label>Gender : </label>
+                <input type="radio" name="pgender" value="male" >male
+                <input type="radio" name="pgender" value="female">female<br><br>
+                <label >Father/Spouse name : </label>
+                <input type="text" id="pgname" required="required"><br><br>
+                <label>Blood group : </label>
+                <select name="bgroup" required="required">
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="others">others</option>
+                </select><br><br>  
+                <label>Contact No : </label>
+                <input type="number" size="10" id="pphnno"><br><br>
+                <label>Visited earlier: </label>
+                <input type="radio" name="visitedearly"  value="morning">Yes
+                <input type="radio" name="visitedearly" value="afternoon">No
+            </div><br><br>
+            <div align="center">
+                <input type="submit" name="submit" class="submit4">
+            </div>
+        </form>
+    </body>
+</html>

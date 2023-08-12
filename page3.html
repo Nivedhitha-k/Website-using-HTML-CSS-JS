@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>add a department</title>
+        <script src="page3val.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="body3">
+        <h1 align="center" class="h13">Enter department details</h1>
+        <form name="form2"  method="post" action="page5.html"  onsubmit="return validate()">
+            <div align="center" class="div13">
+                    <label >Department Name : </label>
+                    <input type="text" id="dname" required="required">&nbsp&nbsp&nbsp<br><br>
+                    <label >Department description : </label><br>
+                    <textarea id="deptdes" required rows="4" cols="30" maxlength="50" placeholder="Enter text area"></textarea><br><br>
+                    <label>No of Doctors : </label>
+                    <input type="number" id="docno" required><br><br>
+                    <label>No of general rooms : </label>
+                    <input type="number" id="genno" required="required"><br><br>
+                    <label>No of A/C rooms : </label>
+                    <input type="number" id="acno" required="required"><br><br>
+                    <label>No of general rooms : </label>
+                    <input type="number" id="icuno" required="required"><br><br>
+                    <label>Cost of general room : </label>
+                    <input type="number" id="gencost" required="required" step="0.01"><br><br>
+                    <label>Cost of A/C room : </label>
+                    <input type="number" id="accost" step="0.01" required="required" ><br><br>
+                    <label>Cost of non A/C room : </label>
+                    <input type="number" id="nonaccost" step="0.01" required="required" ><br><br>
+                    <label>Cost of ICU : </label>
+                    <input type="number" id="icucost" step="0.01" required="required" ><br><br>
+                 
+                </div><br><br>
+                <div align="center">
+                    <input type="submit" name="submit" class="submit3">
+                </div>
+               
+        </form>
+    </body>
+</html>

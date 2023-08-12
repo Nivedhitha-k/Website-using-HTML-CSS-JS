@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>add a doctor</title>
+       <script src="page2val.js"></script>
+       <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="body2">
+        <h1 align="center" class="h12">Enter doctor details</h1>
+        <form name="form1" method="post" action="page5.html" onsubmit="return validate()">
+            <div class="div12">
+                <p>
+                    <label >First Name : </label>
+                    <input type="text" id="fname" required><br><br>
+                    <label>Middle Name : </label>
+                    <input type="text" id="mname" ><br><br>
+                    <label>Last Name : </label>
+                    <input type="text" id="lname" required>
+                </p>
+                <label>Registration number : </label>
+                <input type="number" id="regno" required><br><br>
+                <label>Date Of Birth : </label>
+                <input type="date" id="dob" required><br><br>
+                <label for="gender" required>Gender : </label>
+                <input type="radio" name="gender" value="male" >male
+                <input type="radio" name="gender" value="female">female<br><br>
+                <label>Email : </label>
+                <input type="email" id="email" required><br><br>
+                <label>Specialization : </label>
+                <input type="text" id="spcl" required><br><br>
+                <label>Qualification : </label><br><textarea id="qualification" rows="4" cols="30" placeholder="Enter qualification" required></textarea><br><br>
+                <label>Contact No : </label>
+                <input type="number" size="10" id="phnno" required><br><br>
+                <label>Address : </label><br><textarea id="address" rows="4" cols="30" placeholder="Enter address"></textarea><br><br>
+                <label for="visitingtime" required>Visiting Time: </label>
+                <input type="radio" name="visitingtime"  value="morning">Morning
+                <input type="radio" name="visitingtime" value="afternoon">Afternoon
+                <input type="radio" name="visitingtime" value="evening">Evening<br><br>
+                <label>Visiting Days : </label>
+                <select name="visitingdays" required>
+                    <option value="mon">Monday</option>
+                    <option value="tue">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                    <option value="thurs">Thursday</option>
+                    <option value="fri">Friday</option>
+                    <option value="sat">Saturday</option>
+                    <option value="sun">Sunday</option>
+                </select><br><br>
+                <label>No of patients per day : </label>
+                <input type="number" id="patno" required><br><br>
+                <label>Department No : </label>
+                <input type="number" id="dept" required><br><br>
+            </div><br><br>
+            <div align="center">
+                <input type="submit" name="submit" class="submit2">
+            </div>
+           
+        </form>
+    </body>
+</html>

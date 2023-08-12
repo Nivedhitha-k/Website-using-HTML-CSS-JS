@@ -1,0 +1,158 @@
+.body1{
+ width: 90%;
+ left:10%;
+ background: linear-gradient(0deg,  rgba(161, 109, 57, 0.909),rgba(25, 165, 161, 0.705)90%), url(home2.jpg);
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.h11{
+    position: relative;
+    text-align: center;
+    left:2%;
+    background:linear-gradient(180deg,rgb(97, 92, 86),rgb(0, 0, 0)) ;
+    padding-top: 20px;
+    height: 20%;
+    width:106%;
+    color: whitesmoke;
+    font-family: serif;
+}
+.h21{
+    position: relative;
+    left: 18%;
+    padding-top: 5px;
+    border: 3px solid rgb(206, 206, 206);
+    height: 10%;
+     width:75%;
+     font-size:x-large;
+     text-align: center;
+     font-family: serif;
+}
+.h25{
+    position: relative;
+    left: 18%;
+    padding-top: 5px;
+    border: 3px solid rgb(206, 206, 206);
+    height: 10%;
+     width:75%;
+     font-size:x-large;
+     text-align: center;
+     font-family: serif;
+}
+.a1{
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+label{
+    width:180px;
+    display: inline-block;
+    text-align: left;
+}
+textarea{
+    position: relative;
+    left:180px 
+}
+.body2{
+    background:linear-gradient(180deg,  rgba(35, 84, 78, 0.909) -2%,rgba(255, 255, 255, 0.705)),url(img1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h12{
+    border-radius:8px;
+    border: 2px solid rgb(237, 237, 237);
+    background-color: black;
+    background-image: url('doc41.jpg');
+    height:15%; 
+    padding-top:2%;
+}
+.div12{
+    height:auto;
+    text-align: left;
+    margin-top: 10%;
+    margin: auto;
+    width: 75%;
+    border: 3px solid black;
+    background: linear-gradient(135deg, rgb(177, 180, 180) 0%, rgb(228, 228, 228) 50%,rgb(255, 255, 255) 100%);
+    padding: 20px;
+    padding-left: 40px;
+}
+.submit2{
+    border-color: rgb(255, 255, 255);
+    color: aliceblue;
+    background-color: rgb(26, 169, 160);
+    width:15%;
+    height:8%; 
+    font-size:large;
+    font-family: sans-serif;
+    border-radius: 12px;
+}
+.body3{
+    background:linear-gradient(180deg,  rgba(10, 41, 56, 0.909) -2%,rgba(255, 255, 255, 0.705)),url(img2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h13{
+    border-radius:8px;
+    border: 2px solid rgb(237, 237, 237);
+    background-repeat:space;
+    background-color: black;
+    background-image: url('doc2.png');
+    height:15%; 
+    padding-top:2%;
+}
+.div13{
+    height:auto;
+    text-align: left;
+    margin: auto;
+    width: 75%;
+    border: 3px solid black;
+    background: linear-gradient(135deg, rgb(179, 177, 180) 0%, rgb(228, 228, 228) 50%,rgb(255, 255, 255) 100%);
+    padding: 20px;
+    padding-left: 40px;
+}
+.submit3{
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgb(24, 123, 147);
+    width:15%;
+    height:8%;
+    font-size:medium;
+    font-family: sans-serif;
+    border-radius: 12px;
+}
+.body4{
+    background:linear-gradient(180deg,  rgba(17, 53, 42, 0.909) -2%,rgba(255, 255, 255, 0.705)),url(medical-background-stethoscope-electrocardiogram-paper-30684560.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h14{
+    border-radius:8px;
+    border: 2px solid rgb(237, 237, 237);
+    background-repeat:space;
+    background-color: black;
+    background-image: url('doc4.png');
+    height:15%;
+     padding-top:2%;
+}
+.div14{
+    height:auto;
+    text-align: left;
+    margin: auto;
+    width: 75%;
+    border: 3px solid black;
+    background: linear-gradient(135deg,rgb(179, 177, 180) 0%, rgb(228, 228, 228) 50%,rgb(255, 255, 255) 100%);
+    padding: 20px;
+    padding-left: 40px;
+}
+.submit4{
+border-color: aliceblue;
+color: aliceblue;
+background-color: rgb(18, 148, 115);width:15%;height:8%; 
+font-size:medium;
+font-family: sans-serif;
+border-radius: 12px;
+}
+
